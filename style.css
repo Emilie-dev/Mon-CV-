@@ -1,0 +1,52 @@
+img {
+	width: 15%;
+	height: 15%;
+
+}
+.renseignements {
+	text-align: center;
+	color: purple;
+	font-family: Avantgarde, sans-serif;
+	list-style-type: none;
+	border-bottom-style: solid;
+	margin-top: -12%;
+}
+
+
+ul {
+	list-style-type: none;
+	color: darkblue
+}
+
+h3 {
+	text-decoration: underline;
+	text-align: center;
+}
+
+.jobs {
+text-align: left;
+color: purple;
+font-family: Time New Roman, serif;
+border-bottom-style: solid;
+border-bottom-color: purple;
+}
+
+.études {
+	text-align: left;
+	color:purple;
+	font-family: Time New Roman, serif;
+	border-bottom-style: solid;
+	border-bottom-color: purple;
+}
+
+.loisirs {
+	text-align: left;
+	color:purple;
+	font-family: Time New Roman, serif;
+
+	}
+
+.loisirs li {
+	display: inline;
+	margin: 5%;
+}
