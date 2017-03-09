@@ -1,52 +1,94 @@
 img {
-	width: 15%;
-	height: 15%;
+	width: 20%;
+	height: 20%;
+
+}
+
+ul {
+	text-align: left;
+	list-style-type: none;
+	font-family: Avantgarde, sans-serif;
+	color: darkblue;
+}
 
 }
 .renseignements {
-	text-align: center;
-	color: purple;
-	font-family: Avantgarde, sans-serif;
-	list-style-type: none;
 	border-bottom-style: solid;
-	margin-top: -12%;
+	border-bottom-color: purple;
 }
 
-
-ul {
-	list-style-type: none;
-	color: darkblue
+.renseignements h2 {
+	color: purple;
+	font-family: Time New Roman, serif;
+	display: flex;
+	margin-top: -15%;
+	margin-left: 40%;
 }
 
-h3 {
-	text-decoration: underline;
+.renseignements ul {
 	text-align: center;
+	list-style-type: none;
+	font-family: Avantgarde, sans-serif;
+	color: darkblue;
+	border-bottom-style: solid;
+	border-bottom-color: purple;
 }
 
 .jobs {
-text-align: left;
-color: purple;
-font-family: Time New Roman, serif;
 border-bottom-style: solid;
 border-bottom-color: purple;
 }
 
-.études {
-	text-align: left;
-	color:purple;
+.jobs h3 {
+	color: purple;
+	text-align: center;
 	font-family: Time New Roman, serif;
+	text-decoration: underline;
+}
+
+.jobs li {
+	text-align: left;
+	list-style-type: none;
+	font-family: Avantgarde, sans-serif;
+	color: darkblue;
+}	
+
+.études {
 	border-bottom-style: solid;
 	border-bottom-color: purple;
+}
+
+.études h3 {
+	color: purple;
+	text-align: center;
+	font-family: Time New Roman, serif;
+	text-decoration: underline;
+}
+
+.étude li {
+	text-align: left;
+	list-style-type: none;
+	font-family: Avantgarde, sans-serif;
+	color: darkblue;
 }
 
 .loisirs {
 	text-align: left;
 	color:purple;
 	font-family: Time New Roman, serif;
-
 	}
 
+.loisirs h3 {
+	color: purple;
+	text-align: center;
+	font-family: Time New Roman, serif;
+	text-decoration: underline;
+}
+
 .loisirs li {
+	list-style-type: none;
+	font-family: Avantgarde, sans-serif;
+	color: darkblue;
 	display: inline;
-	margin: 5%;
+	margin: 2%;
 }
